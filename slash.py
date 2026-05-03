@@ -34,7 +34,7 @@ def gethelp():
     {color.graybg}{color.red}{color.bold}${color.reset}{color.graybg} python slash.py Ahmadov{color.reset}
     {color.graybg}{color.red}{color.bold}${color.reset}{color.graybg} python slash.py target@gmail.com{color.reset}""")
 
-def _username(username):
+def _username(iplayvalandrust):
     print(f"{symbol.log} {symbol.slash} starting...")
     print(f"{symbol.log} Username [{color.green}{color.bold}{username}{color.reset}] succesfully setted.")
     threading.Thread(target=profiles.run,args=(username,)).start()
